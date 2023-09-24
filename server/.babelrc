@@ -1,0 +1,16 @@
+{
+    "presets": ["env"],
+    "plugins": [
+        "transform-object-rest-spread",
+        ["transform-runtime", {
+            "regenrator":true
+        }]
+    ],
+    "ignore": [
+        "package-lock.json",
+        "package.json",
+        ".eslintrc.json",
+        ".npmrc",
+        ".gitignore"
+    ]
+}
